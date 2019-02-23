@@ -8,7 +8,23 @@
     color: #999999;
     display: inline-block;
     font-size: 0.8rem;
-    float: left;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    min-width: 7rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 0.8rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+
 }
 
 .log-menu{
@@ -47,27 +63,56 @@
     padding-right: 0.7rem;
 }
 
-.cart{
-    padding-top: 10px;
-    color: white;
-    width: 150px;
-    height: 45px;
-    text-align: center;
-    background-color: #00c8c8;
-    font-size: 0.8rem;
-}
-
 @media (max-width: 600px){
     .hidden-sm{
         display: none;
     }
 }
 
-.cart>a{
-    text-decoration: none;
-    color: white;
+.nav-menu{
+    font-size: 0.8rem;
 }
 
-.cart > a > i{
-    padding-right: 15px;
+.logo{
+    font-size: 24px;
+    font-family: MontserratRegular;
+}
+
+.logo-2{
+    font-family: MontserratBold;
+}
+
+.dropdown-img > p {
+    font-family: MontserratBold;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #212529;
+    margin: 1rem;
+}
+
+@media (max-width: 385px){
+    .dropdown-img > p{
+        font-size: 0.8rem;
+    }  
+}
+
+.mansdropdown{
+    -webkit-box-shadow: 1px 10px 26px 8px rgba(0,0,0,0.15);
+    -moz-box-shadow: 1px 10px 26px 8px rgba(0,0,0,0.15);
+    box-shadow: 1px 10px 26px 8px rgba(0,0,0,0.15);
+}
+
+@media (min-width: 769px){
+    .mansdropdown{
+        min-width: 20rem;
+    }  
+}
+
+.back-ground{
+    background-image: url(/img/photo.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
 }
