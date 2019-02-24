@@ -1,5 +1,5 @@
 .top-nav{
-    height: 45px;;
+    height: 2.5rem;
     background-color: #333333;
 }
 
@@ -129,7 +129,7 @@
 
 .jumbo-text{
     padding-top: 10rem;
-    color: #fff
+    color: #fff;
 }
 
 .bold{
@@ -194,4 +194,43 @@
 .list-unstyled > li > a {
     text-decoration: none;
     color: #333333;
+}
+
+footer{
+    background-color: #f8f8f8;
+}
+
+.footer-banner {
+    background-color: #333333;
+    padding: 1.95rem;
+}
+
+.footer-banner > h5 {
+    color: white;
+    font-family: MontserratBold;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+.footer-banner > p {
+    color: white;
+    font-family: MontserratLight;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+.social-media {
+    font-size: 2.2rem;
+    background-color: #00c8c8;
+    padding: 3rem;
+}
+
+.social-media > i {
+    padding: 25px;
+}
+
+.rigth-color{
+    font-size: 0.8rem;
+    color: #777777;
+    background-color: #333333;
 }
