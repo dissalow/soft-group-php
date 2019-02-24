@@ -179,3 +179,19 @@
     width: 100%;
     height: auto;
 }
+
+.footer-tittle{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: MontserratBold;
+}
+
+.list-unstyled{
+    font-size: 0.8rem;
+    font-family: MontserratRegular;
+}
+
+.list-unstyled > li > a {
+    text-decoration: none;
+    color: #333333;
+}
