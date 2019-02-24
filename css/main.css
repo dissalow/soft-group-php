@@ -39,11 +39,12 @@
     padding-right: 1rem;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 768px){
     .log-menu > ul > li{
-        padding-right: 5rem;
+        padding-right: 4rem;
     }
 }
+
 
 .log-menu > ul > li > a{
     text-decoration: none;
@@ -62,7 +63,13 @@
     padding-right: 0.7rem;
 }
 
-@media (max-width: 600px){
+@media (max-width: 300px){
+    .log-menu > ul > li > a > i{
+        padding-right: 1px;
+    }
+}
+
+@media (max-width: 450px){
     .hidden-sm{
         display: none;
     }
@@ -79,7 +86,7 @@
 
 @media (max-width: 360px){
     .logo{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -227,6 +234,18 @@ footer{
 
 .social-media > i {
     padding: 25px;
+}
+
+@media (max-width: 768px) {
+    .social-media {
+        font-size: 1.5rem; 
+    }
+}
+
+@media (max-width: 424px) {
+    .social-media {
+        font-size: 1.2rem; 
+    }
 }
 
 .rigth-color{
