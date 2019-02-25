@@ -135,6 +135,7 @@
 }
 
 .jumbo-text{
+    text-transform: uppercase;
     padding-top: 10rem;
     color: #fff;
 }
@@ -252,4 +253,122 @@ footer{
     font-size: 0.8rem;
     color: #777777;
     background-color: #333333;
+}
+
+.active-elem {
+    color: #00c8c8;
+}
+
+.fa-chevron-left, 
+.fa-chevron-right{
+    font-size: 2rem;
+    color: black;
+}
+
+.fa-chevron-left:hover, 
+.fa-chevron-right:hover{
+    padding: 10px;
+    background: #00c8c8;
+    height: 56px;
+    width: 46px;
+    color: white;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.fa-star {
+    font-size: 0.875rem;
+}
+
+.full-star {
+    color: #ded3aa;
+}
+
+.empty-star {
+    color: #dfdfde;
+}
+
+.product-info > div >h1 {
+    font-family: MontserratRegular;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.options{
+    display: flex;
+}
+
+.options > div {
+    padding-right: 1rem;
+}
+
+.rating > i{
+    letter-spacing: -0.3rem;
+    font-size: 0.875rem;
+}
+.rating > span {
+    font-family: MontserratRegular;
+    font-size: 0.875rem;
+    color: #727272;
+}
+
+.add-reviews > a {
+    font-family: MontserratRegular;
+    text-decoration: none;
+    color: #727272;
+    font-size: 0.875rem;
+}
+
+.add-reviews > a:hover {
+    color: #00c8c8;
+}
+
+.share > span {
+    font-family: MontserratRegular;
+    font-size: 0.875rem;
+    color: #727272;
+}
+
+.share > i {
+    font-size: 0.875rem;
+    color: #727272;
+}
+
+.price {
+    font-family: MontserratLight;
+    font-size: 1.5rem;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.text-bold {
+    font-weight: 900;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.product-dickription > p {
+    color: #8e8c8c;
+    font-size: 0.938rem;
+}
+
+.product-dickription > ul > li {
+    color: #8e8c8c;
+    font-size: 0.938rem;
+}
+
+.text-option{
+    font-size: 0.813rem;
+    text-transform: uppercase;
+}
+
+.custom-select {
+    font-size: 0.8rem;
 }
