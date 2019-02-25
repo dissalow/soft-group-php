@@ -151,9 +151,9 @@
     font-size: 1.875rem;
 }
 
-@media (max-width: 330px){
+@media (max-width: 450px){
     .jumbo-text > p{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -335,6 +335,7 @@ footer{
 .share > i {
     font-size: 0.875rem;
     color: #727272;
+    padding-left: 15px;
 }
 
 .price {
@@ -461,5 +462,17 @@ footer{
 
 .desription-tittle > p {
     font-size: 0.938rem;
+}
+
+.list-unstyled-product{
+    padding-left: 0;
+    list-style: none;
+    font-size: 0.8rem;
+    font-family: MontserratRegular;
+}
+
+.list-unstyled-product > li > a {
+	text-decoration: none;
+	color: #00c8c8;
 }
 
