@@ -12,37 +12,39 @@
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <title>Brand page</title>
 </head>
 
 <body>
     <header class="container-fluid top-nav">
-        <div class="row">
-            <div class="col-sm-12">
-                <div>
-                    <div class="btn-group">
-                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Currency
-                            <span class="caret"></span></button>
-                        <ul class="dropdown-menu currency">
-                            <li><a href="#">GBR</a></li>
-                            <li><a href="#">USD</a></li>
-                            <li><a href="#">Euro</a></li>
-                        </ul>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Currency
+                            </button>
+                            <div class="dropdown-menu currency">
+                                <a class="dropdown-item" href="#">GBR</a>
+                                <a class="dropdown-item" href="#">USD</a>
+                                <a class="dropdown-item" href="#">Euro</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="log-menu">
-                        <ul>
-                            <li><a href="#"><i class="far fa-address-book"></i><span
-                                        class="hidden-sm">Register</span></a></li>
-                            <li><a href="#"><i class="fas fa-sign-in-alt"></i><span class="hidden-sm">Sing In</span></a>
-                            </li>
-                            <li><a href="#"><i class="fas fa-cart-arrow-down"></i><span
-                                        class="hidden-sm">empty</span></a></li>
-                        </ul>
+                    <div class="col-10">
+                        <div class="log-menu">
+                            <ul>
+                                <li><a href="#"><i class="far fa-address-book"></i><span class="hidden-sm">Register</span></a>
+                                </li>
+                                <li><a href="#"><i class="fas fa-sign-in-alt"></i><span class="hidden-sm">Sing
+                                            In</span></a>
+                                </li>
+                                <li><a href="#"><i class="fas fa-cart-arrow-down"></i><span class="hidden-sm">empty</span></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
     </header>
 
     <nav class="container-fluid bg-light">
