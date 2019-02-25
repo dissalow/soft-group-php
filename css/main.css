@@ -436,3 +436,30 @@ footer{
     color: #00c8c8;
     opacity: 0.8;
 }
+
+.link{
+    font-size: 0.9rem;
+    color: #575153;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    font-size: 0.9rem;
+    background-color: #333333;
+    color: white;
+    text-transform: uppercase;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.desription-tittle > h3 {
+    text-transform: uppercase;
+    font-size: 0.813rem;
+}
+
+.desription-tittle > p {
+    font-size: 0.938rem;
+}
+
